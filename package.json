@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "web3": "^1.7.3"
+  },
+  "scripts": {
+    "dev": "truffle migrate --reset && npm run artifacts && npm run react",
+    "artifacts": "copy -r ./build/contracts/ ./client/web3/artifacts",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "react": "cd client && yarn start"
+  }
+}

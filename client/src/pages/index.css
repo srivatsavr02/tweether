@@ -1,0 +1,10 @@
+html,
+body {
+    min-height: 100%;
+}
+body {
+    background-color: #262740;
+    background-image: url("../static/images/landing-bg.jpg");
+    background-size: cover;
+    background-position: center center;
+}
